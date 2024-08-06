@@ -9,7 +9,7 @@ function tipcalculator(){
    const tipValue=parseFloat(tips.value);
    const totalAmount=amountvalue+(amountvalue * tipValue / 100);
    totals.innerText=totalAmount.toFixed(2);
- 
+   totals.style.fontSize = "23px"; 
 if(amounts.value==""||tipValue==""){
     errors.innerHTML="please enter the correct value";
     errors.style.display="block";
