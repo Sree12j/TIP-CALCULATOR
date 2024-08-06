@@ -7,7 +7,7 @@
   align-items: center;
   background: linear-gradient(to right, #ef0d89, #4e6980);
   width: 50%;
-  height: 500px;
+  height: 600px;
   padding: 50px;
   position: absolute;
   top: 50%;
@@ -37,7 +37,7 @@ input{
     background: none;
     width: 100%;
     height: 40px;
-    font-size: 33px;
+    font-size: 23px;
 }
 .calculate{
     padding: 10px;
